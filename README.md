@@ -22,16 +22,20 @@ Para abordar esta problemática, desarrollaremos una base de datos en MySQL para
 
 ### 4.1 Limpieza de datos
 Para comenzar, hemos realizado una limpieza de los archivos CSV proporcionados por la empresa para garantizar la precisión de los datos. Hemos convertido todos los nombres a minúsculas, eliminado actores duplicados y columnas irrelevantes, y hemos agregado nuevas columnas para describir las características de las películas, como la disponibilidad de tráilers, comentarios, escenas eliminadas e imágenes detrás de escena. Posteriormente, exportamos estos archivos CSV depurados.
+
 Para acceder al documento pulse [aqui](https://github.com/Lidiavf1912/sql-project/blob/main/python/limpieza%20csvs.ipynb).
 
 ### 4.2 Creación de una base de datos
 Una vez que contamos con los archivos limpios, los hemos importado a MySQL y hemos establecido relaciones entre ellos para permitir consultas con datos de todos los archivos CSV. Finalmente, hemos creado una vista que incluye los nombres y apellidos de los actores, el título de las películas y las ubicaciones de las tiendas de la empresa.
+
 Las queries utilizadas para realizar el esquema de la bbdd se disponen [aqui](https://github.com/Lidiavf1912/sql-project/blob/main/mysql/esquema%20y%20relaciones%20bbdd.txt).
+
 La query realizada para crear la vista en la base da datos aparece [aqui](https://github.com/Lidiavf1912/sql-project/blob/main/mysql/query%20vista%20bbdd.txt).
 
 ### 4.3 Realización del dashboard
 Para concluir, hemos cargado la vista que creamos en la base de datos para desarrollar un panel de control en Tableau. Hemos realizado un dashboard que permitirá a los empleados consultar la información de manera sencilla y con la posibilidad de interactuar mediante filtros. En este dashboard hemos incorporación información sobre los nombres de las películas que dispone la empresa, las tiendas en las que están disponibles y los actores que aparecen en estas.
-Link al dashboard [aqui](https://public.tableau.com/app/profile/lidia.vi.uales/viz/stockdepeliculasvideoclub/Dashboard1?publish=yes)
+
+Link al dashboard [aqui](https://public.tableau.com/app/profile/lidia.vi.uales/viz/stockdepeliculasvideoclub/Dashboard1?publish=yes).
 
 ## 5. Conclusiones y sugerencias <a name="Conclusiones_y_sugerencias"/>
 Finalmente, hemos logrado mejorar la experiencia del usuario al poder resolver las consultas de los clientes los empleados.
