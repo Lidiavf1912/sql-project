@@ -1,0 +1,10 @@
+create view actores_peliculas_y_tiendas as
+select a.complete_name,
+		a.firactores_peliculas_y_tiendasactores_peliculas_y_tiendasactores_peliculas_y_tiendasst_name,
+        a.last_name,
+		f.title,
+        i.store_id
+from actor a
+inner join old o on a.actor_id=o.actor_id
+inner join film f on o.film_id=f.film_id
+inner join inventory i on f.film_id=i.film_id;
