@@ -7,7 +7,7 @@
 2.[As Is](#As-Is)\
 3.[To Be](#To-Be)\
 4.[Desarrollo del proyecto](#Desarrollo_del_proyecto)\
-5.[Conclusiones y sugerencias](#Conclusiones_y_sugerencias)\
+5.[Conclusiones y sugerencias](#Conclusiones_y_sugerencias)
 
 ## 1. Contexto <a name="Contexto"/>
 En este proyecto, desplegaremos una labor de consultoría para un videoclub que opera en dos ubicaciones distintas. Los únicos datos disponibles para este videoclub se encuentran en siete hojas de cálculo de Excel, que incluyen información sobre actores, categorías de películas, películas en stock, idiomas, antiguos discos duros, alquileres y más. Estos documentos contienen detalles sobre las películas disponibles, tiendas de la empresa, características de las películas (actores, idiomas, comentarios, etc.), y los identificadores de los empleados, entre otros datos.
