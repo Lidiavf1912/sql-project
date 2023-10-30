@@ -39,10 +39,5 @@ Link al dashboard [aqui](https://public.tableau.com/app/profile/lidia.vi.uales/v
 
 ## 5. Conclusiones y sugerencias <a name="Conclusiones_y_sugerencias"/>
 Finalmente, hemos logrado mejorar la experiencia del usuario al poder resolver las consultas de los clientes los empleados.
+
 Por otra parte, hemos identificado que la empresa carece de una página web. Por lo tanto, nuestro equipo de desarrollo web puede crear un sitio web que ofrezca acceso al panel de control desarrollado. Esto permitirá a los clientes consultar la información en línea desde cualquier ubicación, sin necesidad de acudir a la tienda física y consultar al personal para resolver sus dudas. Además, se pueden recopilar otras dudas comunes que realicen los clientes para realizar más dashboards que ayuden a la experiencia del usuario.
-
-
-
-
-
-
